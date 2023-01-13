@@ -1,0 +1,28 @@
+<html>
+<head>
+<title>Student results</title>
+</head>
+<body>
+<fieldset style="width:600px">
+<legend><b>Student input section:</b></legend>
+name:<input type="text" id="txtname">
+class:<input type="text" id="txtclass"><br/><br/>
+<table border="1">
+<tr><td>English </td><td><input type="txtenglish"></td></tr>
+<tr><td>Kannada</td><td><input type="text" id="txtkannada"></td></tr>
+<tr><td>Maths</td><td><input type="text" id="txtmaths"></td></tr>
+<tr><td>Science</td><td><input type="text" id="txtScience"></td></tr>
+</table><br/><br/>
+<input type="button" value="Get Results">
+</fieldset>
+<h2>Report card</h2>
+<table border="1">
+<tr><td>Name</td><td><input type="text" id="txtstudentname" readonly></td></tr>
+<tr><td>Class</td/><td><input type="text" id="txtstudentclass" readonly></td></tr>
+<tr><td>Total marks</td><td><input type="text" id="txttotal marks" readonly></td></tr>
+<tr><td>Average marks</td><td><input type="text" id="txtavgmarks" readonly></td></tr>
+<tr><td>Grade</td><td><input type="text" id="txtGrade" readonly></td></tr>
+<tr><td>Remarks</td><td><input type="text"id="txtResult" readonly></td></tr>
+</table>
+</body>
+</html>
