@@ -1,0 +1,24 @@
+<html>
+<head>
+<title>Embedding multimedia</title>
+<body>
+<Center>
+<h1>Here is a video embedded on this webpage</h1>
+<h2>Play Audio|video at a time</h2>
+<br>
+<h3>Play Audio:</h3>
+<audio controls>
+<source src="C:\Users\ADMIN\Downloads\fish.mp4">
+<source src="C:\Users\ADMIN\Downloads\fish.mp4"> 
+
+</audio>
+<br>
+<br>
+<h3>Play video:</h3>
+<video controls width="650">
+<source src="C:\Users\ADMIN\Downloads\fish.mp4">
+
+   </video>
+  </center>
+ </body>
+</html>	
